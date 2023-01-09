@@ -1,0 +1,64 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: darkblue;
+}
+
+.container {
+    background-color: #FFF;
+    height: 550px;
+    width: 350px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family: Agbalumo;
+}
+
+#lblPrincipal, #lblInterest, #lblTime, #lblInterestAmount, #lblTotalPlusInterest {
+    margin: 30px auto auto 10px;
+    display: block;
+    text-align: left;
+    font-family: 'Times New Roman';
+}
+
+#errPrincipal, #errTime, #errInterest {
+    color: red;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    padding-left: 5px;
+    margin: 5px auto auto 10px;
+    border-collapse: collapse;
+    display: block;
+}
+
+    input[type="submit"] {
+        margin: 40px auto auto auto;
+        cursor: pointer;
+        color: #FFF;
+        background-color: #240a3d;
+        border-radius: 5px;
+    }
+
+    input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
