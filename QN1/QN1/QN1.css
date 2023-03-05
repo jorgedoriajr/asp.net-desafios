@@ -1,0 +1,43 @@
+﻿body {
+    background-color: blueviolet;
+}
+
+.container {
+    margin: 5px 30% auto 30%;
+    padding: 50px 10px 10px 10px;
+    height: 550px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+    .container div {
+        margin: 5px;
+    }
+
+div input[id="txtNum1"], input[id="txtNum2"] {
+    height: 20px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 5px auto 20px 50px;
+}
+#errNum1, #errNum2{
+    color: red;
+}
+
+div span {
+    margin: 10px;
+    padding: 5px;
+}
+
+#buttons {
+    margin-top: 100px;
+    padding-left: 80px;
+}
+
+div input[type="submit"] {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px;
+}
