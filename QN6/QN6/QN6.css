@@ -1,0 +1,54 @@
+﻿.container {
+    height: 350px;
+    width: 600px;
+    background-color: #ffbb00;
+    border-radius: 5px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: aqua;
+    margin-top: 0px;
+    border-bottom: 1px dashed #000000;
+    padding: 10px;
+}
+
+.content {
+    text-align: left;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #000000;
+}
+
+#lblEmail, #lblPassword {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+#txtEmail, #txtPassword {
+    height: 20px;
+    width: 200px;
+    margin-left: 10px;
+}
+
+#btnLogin {
+    font-size: 20px;
+    font-family: Arial;
+    margin-left: 200px;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+}
+
+span[id^="err"]{
+    color: red;
+    font-weight: bold;
+}
+
+#errDatabase{
+    padding-top: 10px;
+    font-size: 25px;
+}
