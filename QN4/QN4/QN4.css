@@ -1,0 +1,33 @@
+﻿.container {
+    height: 600px;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    background-color: #00ffff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.title-container {
+    border: 3px double #000;
+    margin: 10px 10px 25px 10px;
+}
+
+.form-content {
+    text-align: left;
+    margin: 15px;
+}
+.radioOption, .dateOption {
+    display: inline-block;
+}
+.form-content input[type="submit"]{
+    margin: 10px 10px auto auto;
+    cursor: pointer;
+    height: 30px;
+    width: 80px;
+}
+span[id^="err"] {
+    color: red;
+    font-weight: bold; 
+    margin-left: 20px;
+}
