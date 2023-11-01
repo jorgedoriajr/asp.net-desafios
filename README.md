@@ -54,12 +54,9 @@ To get started with using the scripts in this repository, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
 
-
 ```
 git clone https://github.com/mahendramahara/Solving-Challenges-ASP.NET.git
-
 ```
-
 
 2. Navigate to the directory containing the script you are interested in.
 3. Follow the instructions provided in the README.md file of that directory to set up and run the script.
