@@ -1,0 +1,48 @@
+﻿.container {
+    height: 500px;
+    width: 500px;
+    background-color: #e237fc;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+    .container div {
+        margin-top: 20px;
+    }
+
+        .container div h1 {
+            padding-top: 20px;
+            text-align: center;
+            color: white
+        }
+
+form {
+    text-align: left;
+}
+
+    form span, input {
+        margin-left: 20px;
+    }
+
+.radioOption {
+    display: inline-block;
+}
+
+span[id^="err"] {
+    color: red;
+    font-weight: bold;
+}
+
+.btnCenter {
+    text-align: center;
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
